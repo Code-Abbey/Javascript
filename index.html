@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Game</title>
+  <link rel="stylesheet" href="/styles.css"
+</head>
+<body>
+  <!-- Start Page -->
+  <div id="start-container">
+    <h1>Welcome to the Quiz Game!</h1>
+    <button id="start-button">Start Quiz</button>
+  </div>
+
+  <!-- Quiz Page -->
+  <div id="quiz-container">
+    <h1>Quiz Game</h1>
+    <audio id="background-music" loop>
+      <source src="others/funky-and-jazzy-gang-loop-251858.mp3" type="audio/mpeg">
+    </audio>
+    <div id="question-container">
+      <p id="question"></p>
+      <div id="answers"></div>
+    </div>
+    <button id="next-button">Next Question</button>
+    <div id="result-container">
+      <p id="result"></p>
+      <button id="restart-button">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
